@@ -1,0 +1,325 @@
+*{
+    transition: 0.3s;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font-family: 'Aref Ruqaa Ink', serif;
+font-family: 'Cairo Play', sans-serif;
+font-family: 'Marhey', sans-serif;
+font-family: 'Vina Sans', sans-serif;
+overflow-x: hidden;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.landing{
+    background-color: white;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 82% 97%, 48% 100%, 21% 96%, 0 100%, 0% 35%, 0 0);
+}
+video{
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    top: 0;
+}
+input{
+    border: 0;
+    outline: 0;
+}
+input:focus{
+    border: 0;
+    outline: 0;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0;
+    position: relative;
+    box-shadow: 0 0 10px #eff3f444,
+    0 0 15px #eff3f4,
+    0 0 50px #eff3f4;
+}/*
+.navbar::before{
+    content: "";
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    animation: hue 5s forwards infinite;
+    background-color: pink;
+    box-shadow: 0 0 10px #fdd11444,0 0 50px #fdd114,0 0 100px #fdd114;
+}*/
+.navbar .container{
+    padding: 0 !important;
+}
+.navbar span{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    pad: 0;
+}
+.navbar ul{
+    color: white;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font: 1.1rem;
+    text-transform: capitalize;
+}
+.navbar li{
+    padding: 1.2rem;
+    transition: 0.3s;
+    margin: 0;
+}
+.navbar li i{
+    margin-left: 1rem;
+    color: #2373fd;
+}
+.navbar li:hover{
+    background-color:rgba(255, 255, 255, 0.3);
+}
+.btn-group i{
+    color: white;
+    font-size: 1.5rem;
+}
+.logo{
+    color: transparent;
+    font-weight: bold;
+    font-size: 1.8rem;
+    background-color:rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    -webkit-text-stroke: 1px #2373fd;
+}
+
+.logo::before{
+    content: "";
+    position: absolute;
+    background-color: white;
+    top: 29px;
+    left: -25px;
+    height: 9px;
+    width: 0%;
+    transition: all 0.3s ease 0s;
+    transform: rotate(34deg);
+    z-index: -1;
+    opacity: 0.5;
+}
+.logo:hover::before{
+    width: 172%;
+}
+/*asdasdasasdasdasdasds***/
+.livesearch{
+    color: white;
+    min-height: 70vh;
+    align-items: center;
+}
+.livesearch .container{
+    gap:1rem;
+}
+.livesearch .container div{
+    background: white;
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+.livesearch .container div input{
+    width: 100%;
+    border-bottom: 1px solid #9a9fa0;
+}
+.livesearch .container div i{
+    color: #9a9fa0;
+}
+.livesearch h1{
+    font-size: 15rem;
+    color: white ;
+    text-shadow: -2px 2px 0 #eff3f4,
+    -4px 4px 0 #eff3f4,
+    -6px 6px 0 #eff3f4,
+    -8px 8px 0 #eff3f4,
+    -10px 10px 0 #eff3f4,
+    -12px 12px 0 #eff3f4,
+    -14px 14px 0 #eff3f4,
+    -16px 16px 0 #eff3f4,
+    -18px 18px 20px #9a9fa0,
+    -18px 18px 30px #9a9fa0,
+    -18px 18px 50px #9a9fa0,
+    -18px 18px 150px #9a9fa0;
+    gap: 1.5rem;
+    
+}
+/******/
+.distinations .container{
+    gap: 3rem;
+}
+.distinations .row{
+    gap: 0.8rem;
+    justify-content: center;
+}
+.distinations .card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 2px rgb(1, 142, 207),
+    0 0 3px rgb(1, 142, 207),
+    0 0 5px rgb(1, 142, 207);
+}
+.card span:nth-child(1){
+    color: #fdd114;
+}
+.card span:nth-child(2){
+    color: #fdd114;
+}
+.card span:nth-child(3){
+    color: #fdd114;
+}
+/*****/
+.flights{
+    clip-path: polygon(46% 0, 73% 4%, 100% 0, 100% 70%, 100% 94%, 50% 100%, 20% 95%, 0 100%, 0 0, 20% 4%);
+    background-repeat:no-repeat ;
+    position: relative;
+    background-size: cover;
+    position: relative;
+    background-image: url('https://images.unsplash.com/photo-1558285549-2a06f9a5fe65?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZsaWdodHxlbnwwfHwwfHx8MA%3D%3D');
+}
+.flights::before{
+    content: "";
+    position: absolute;
+    width: 138%;
+    height: 113%;
+    opacity: 0.5;
+    background-color: #eff3f4;
+    left: 0;
+    top: 0;
+}
+.flights h1{
+    border: 1px solid black;
+    padding: 0.5rem 2rem;
+    background: linear-gradient(to right, #1bbc9b 0%, #14b9d5 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    z-index: 2;
+}
+.clip1{
+    background-image: url('https://www.travelstart.co.za/blog/wp-content/uploads/2018/03/airport-view-1.jpg');
+    height: 100%;
+    width: 100%;
+}
+.flights .container div{
+    gap: 1rem;
+    z-index: 2;
+}
+.flights i{
+    font-size: 4rem
+}
+.flights .row{
+    justify-content: space-around;
+}
+.flights .economy{
+    max-width: 300px;
+    padding: 1rem 2rem;
+    border: 1px solid rgb(123, 120, 120);
+    border-radius:2rem ;
+}
+.flights .economy:hover
+{
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.flights .economy i:nth-child(1){
+    color: #2373fd;
+}
+.flights .economy p{
+    color: #929393;
+}
+.mobile{
+    width: fit-content;
+}
+.mobile{
+    gap: 0 !important;
+}
+.mobile img{
+    transform: rotate3d(-7, 12, 3, 20deg);
+}
+@media (max-width:565px){
+    .mobile img:nth-child(1){
+        max-width: 30%;
+    }
+    .mobile img:nth-child(2){
+        max-width: 50%;
+    }
+}
+.mobile h2{
+    color: white;
+    border-radius: 2rem;
+    border: 2px solid #2373fd;
+    padding: 0.5rem 1rem;
+}
+/*****/
+.contact{
+    min-height: 40vh;
+    background-image:url('http://www.nicdarkthemes.com/themes/travel/wp/demo/intro/img/parallax/para-3.jpg') ;
+    position: relative;
+}
+.contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(46, 46, 46, 0.6) 10%,rgba(45, 45, 45, 0.3) 100%);
+    top: 0px;
+}
+.contact h3{
+    color:white;
+}
+.contact ul{
+    color: #b1b6b8;
+}
+.contact ul li{
+    font-size: 1.2rem;
+}
+/*****/
+@media (max-width:450px){
+    .livesearch h1{
+        font-size: 7rem;
+        text-shadow: -2px 2px 0 #eff3f4,
+        -1px 1px 0 #eff3f4,
+        -2px 2px 0 #eff3f4,
+        -3px 3px 0 #eff3f4,
+        -4px 4px 0 #eff3f4,
+        -5px 5px 0 #eff3f4,
+        -6px 6px 0 #eff3f4,
+        -7px 7px 0 #eff3f4,
+        -8px 8px 20px #9a9fa0,
+        -18px 18px 35px #9a9fa0,
+        -18px 18px 40px #9a9fa0,
+        -18px 18px 100px #9a9fa0;
+        gap: 1.5rem;
+    }
+}
+@media(min-width:450px){
+    .livesearch h1{
+        font-size: 10rem;
+    }
+}
+@media(min-width:800px){
+    .livesearch h1{
+        font-size: 15rem !important;
+    }
+}
+
+@keyframes hue {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
