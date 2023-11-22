@@ -265,7 +265,7 @@ ul{
 /*****/
 .contact{
     min-height: 40vh;
-    background-image:url('http://www.nicdarkthemes.com/themes/travel/wp/demo/intro/img/parallax/para-3.jpg') ;
+       background-image:url('sea.jpg') ;
     position: relative;
 }
 .contact::before{
